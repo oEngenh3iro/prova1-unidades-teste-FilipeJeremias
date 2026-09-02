@@ -1,7 +1,7 @@
 const { somar, diminuir, multiplicar, dividir } = require("../src/calculator");
 
 test("Somar dois valores válidos", async () => {
-  expect(somar(150, 25)).toStrictEqual(999);
+  expect(somar(150, 25)).toStrictEqual(175);
 });
 
 test("Diminuir dois valores válidos", async () => {
